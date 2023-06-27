@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 50px;
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline;
+}
+
+#menu li a {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: blue;
+
+    padding: 0 15px;
+
+    border-right: 1px;
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background: white;
+}
+
+input {
+    width: 20%;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
